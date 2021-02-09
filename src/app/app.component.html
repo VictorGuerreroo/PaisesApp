@@ -1,15 +1,8 @@
 <div class="row container mt-4">
-    <div class="col-3">
-        <h2>Búsquedas</h2>
-        <hr>
-        <ul class="list-group">
-            <li class="list-group-item">Buscar país</li>
-            <li class="list-group-item">Por Región</li>
-            <li class="list-group-item">Por capital</li>
-        </ul>
-    </div>
-    <div class="col">
-        <h2>Por Región</h2>
-        <hr>
-    </div>
+  <div class="col-3">
+    <app-sidebar></app-sidebar>
+  </div>
+  <div class="col">
+    <router-outlet></router-outlet>
+  </div>
 </div>
